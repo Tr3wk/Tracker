@@ -16,4 +16,5 @@ while True:
             plik.write(f"\n{Nazwa}")
             plik.write(f"\n{Czas}")
             plik.write(f"\n{Opis}")
+            plik.write("test na samrtfinie")
 
