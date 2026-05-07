@@ -55,7 +55,6 @@ while True:
                 print("Brak wpisów, zacznij od dodania pierwszego wpisu")
     elif choice == "3":
         nazwa_usun = input("Wpis o jakiej nazwie usunąć")
-        
     elif choice == "4":
         exit()
     else:
