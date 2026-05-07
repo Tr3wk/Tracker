@@ -1,0 +1,9 @@
+{
+"languages": [
+    {"name": "Dokodu",
+    "year_created": 2023,
+    "paradigm": ["fun", "fancy"],
+    "popularity_index": 3,
+    "github_stars": 200}
+    ]
+}
