@@ -1,6 +1,7 @@
 from Tracker import *
 from testy2 import *
-        
+
+inicjalizacja_bazy()
 while True:
 
     print("Witaj w Personal Tracker! co chcesz dzisiaj zrobić?")
@@ -14,6 +15,7 @@ while True:
         
     elif choice == "2":
         odczyt_wpisow()
+
     elif choice == "3":
         usuniecie_wpisu()
 

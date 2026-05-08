@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WPISY</title>
+</head>
+<body>
+
+    <table border="1">
+  <tr>
+    <th>Nazwa</th>
+    <th>Opis</th>
+    <th>Czas</th>
+    <th>Data</th>
+    {% for wpis in wpisy %}
+  </tr>
+  <td>{{wpis[0]}}</td>
+  <td>{{wpis[1]}}</td>
+  <td>{{wpis[2]}}</td>
+  <td>{{wpis[3]}}</td>
+  </tr>
+  {% endfor %}
+
+</table>
+</body>
+</html>
